@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_registration
+    username: root
+    password: salman123
+  jpa:
+    show-sql: true        # Enables SQL query logging
+    properties:
+      hibernate:
+        format_sql: true
